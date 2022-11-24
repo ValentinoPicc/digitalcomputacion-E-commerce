@@ -1,21 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './componentes/Navbar';
+import Logo from './componentes/logoDigitalComp.webp';
+import ItemListContainer from './componentes/ItemListContainer';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <div>
-          <h1>Hola almumnos y alumnas de CoderHouse</h1>
-        </div>
+        <a  href='index.hmtl'> <img src={Logo} className="App-logo" alt="logo" /> </a>
 
 
         <div>
-          <h1>Hola alumnos y alumnas de CoderHouse</h1>
-          <h2>Como la estan pasando?</h2>
+          <Navbar
+           Logo = {Logo} />
+
+          <ItemListContainer
+          nombre="Valentino"
+          />
+
         </div>
+
 
       </header>
     </div>

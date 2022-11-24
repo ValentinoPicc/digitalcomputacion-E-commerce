@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -29,10 +29,29 @@
 }
 
 @keyframes App-logo-spin {
-  from {
+  /* from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
-  }
+  } */
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+li{
+  margin-left: 70px;
+  margin-right: 70px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10%;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+img{
+  border-radius: 10px;
 }
