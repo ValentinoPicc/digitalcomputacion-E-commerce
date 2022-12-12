@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 
 const Navbar = (Logo) => {
@@ -11,24 +12,36 @@ const Navbar = (Logo) => {
                                     </button>
                                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                                    <Link to='/'>
                                                     <li class="nav-item">
-                                                        <a class="nav-link active letra" href="/index.html">  <img src={Logo} className="App-logo" alt="logo" /></a>
+                                                    <img src={Logo} className="App-logo" alt="logo" />
                                                     </li>
+                                                    </Link>
+                                                    <Link to='/' >
                                                     <li class="nav-item">
-                                                        <a class="nav-link active letra" href="/home.html">Home</a>
+                                                        Home
                                                     </li>
+                                                    </Link>
+                                                    <Link to='/productos'>
                                                     <li class="nav-item">
-                                                        <a class="nav-link letra" href="/productos.html">Productos</a>
+                                                        Productos
                                                     </li>
+                                                    </Link>
+                                                    <Link>
                                                     <li class="nav-item">
-                                                        <a class="nav-link letra" href="/ubicacion.html">Ubicacion</a>
+                                                        Ubicacion
                                                     </li>
+                                                    </Link>
+                                                    <Link>
                                                     <li class="nav-item">
-                                                        <a class="nav-link letra" href="/contacto.html">Contacto</a>
+                                                        Contacto
                                                     </li>
+                                                    </Link>
+                                                    <Link>
                                                     <li class="nav-item">
-                                                        <a class="nav-link letra" href="/carrito.html"><CartWidget /></a>
+                                                    <CartWidget />
                                                     </li>
+                                                    </Link>
                                                 </ul>
                                         </div>
                                 </div>
