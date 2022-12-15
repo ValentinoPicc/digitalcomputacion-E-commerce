@@ -1,10 +1,13 @@
-import Elemento from "./Elemento";
 
 function Products () {
+
+
     return(
         <div>
         <h1>Productos disponibles</h1>
-        <Elemento/>
+        <ul>
+            
+        </ul>
 
         </div>
     );

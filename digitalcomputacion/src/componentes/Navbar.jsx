@@ -22,7 +22,7 @@ const Navbar = (Logo) => {
                                                         Home
                                                     </li>
                                                     </Link>
-                                                    <Link to='/productos'>
+                                                    <Link to='/products'>
                                                     <li class="nav-item">
                                                         Productos
                                                     </li>
@@ -32,9 +32,9 @@ const Navbar = (Logo) => {
                                                         Ubicacion
                                                     </li>
                                                     </Link>
-                                                    <Link>
+                                                    <Link to='detail/:name/:category'>
                                                     <li class="nav-item">
-                                                        Contacto
+                                                        Detalle producto
                                                     </li>
                                                     </Link>
                                                     <Link>

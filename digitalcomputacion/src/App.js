@@ -3,13 +3,13 @@ import{
   Routes,
   Route
 } from 'react-router-dom'
-import Home from './pages/Home';
-import Products from './pages/Products';
-import Elemento from './pages/Elemento';
+import ItemListContainer from './componentes/ItemListContainer'
+import Productos from './pages/Productos';
+import ItemDetailContainer from './pages/ItemDetailContainer';
 import './App.css';
 import Navbar from './componentes/Navbar';
 import Logo from './componentes/logoDigitalComp.webp';
-import ItemListContainer from './componentes/ItemListContainer';
+
 
 
 function App() {
@@ -26,14 +26,10 @@ function App() {
         <BrowserRouter>
         <Navbar
            Logo = {Logo} />
-
-          <ItemListContainer
-          nombre="Valentino"
-          />
           <Routes>
-            <Route exact path='/' element={<Home/>}/>
-            <Route path='/productos' element={<Products/>}/>
-            <Route path='detalle/:name/:modelo/:color' element={<Elemento/>}/>
+            <Route exact path='/' element={<ItemListContainer/>}/>
+            <Route path='/products' element={<Productos/>}/>
+            <Route path='detail/:name/:category' element={<ItemDetailContainer/>}/>
           </Routes>
         </BrowserRouter>
 

@@ -1,0 +1,115 @@
+{"gabinetes":[
+{
+    "id":1,
+    "nombre":"Gabinete SuperPower Demeanor Ventana Acrilica 1x120mm FAN",
+    "clasificacion":"Base",
+    "Precio":"$13.900",
+    "imagen":"./componentes/Gabinete1.jpg"
+},
+{
+    "id":2,
+    "nombre":"Gabinete Deepcool MATREXX 30",
+    "clasificacion":"Base",
+    "Precio":"$14.300",
+    "imagen":"./componentes/Gabinete2.jpg"
+},
+{
+    "id":3,
+    "nombre":"Gabinete Thermaltake S100 Tempered Glass White Sin fuente",
+    "clasificacion":"Base",
+    "Precio":"$19.500",
+    "imagen":"./componentes/Gabinete3.jpg"
+},
+{
+    "id":4,
+    "nombre":"Gabinete Lian Li Lancool 3R-W White ARGB",
+    "clasificacion":"Media",
+    "Precio":"$50.170",
+    "imagen":"./componentes/Gabinete4.jpg"
+    
+},
+{
+    "id":5,
+    "nombre":"Gabinete Cougar Conquer 2",
+    "clasificacion":"Media+",
+    "Precio":"$91.050",
+    "imagen":"./componentes/Gabinete5.jpg"
+},
+{
+    "id":6,
+    "nombre":"Gabinete Lian Li Odyssey X Black",
+    "clasificacion":"Pro",
+    "Precio":"$156.700",
+    "imagen":"./componentes/Gabinete6.jpg"
+},
+{
+    "id":7,
+    "nombre":"Gabinete Corsair 7000X ICUE Vidrio Templado Black RGB Full Tower",
+    "clasificacion":"Pro",
+    "Precio":"$105.700",
+    "imagen":"./componentes/Gabinete7.jpg"
+}
+],
+"placas de video":[
+    {
+        "id":1,
+        "nombre":"Placa de Video Asrock RX 570 8GB GDDR5 Phantom Gaming Elite",
+        "clasificacion":"Base",
+        "Precio":"$62.500"
+    },
+    {
+        "id":2,
+        "nombre":"Placa de Video XFX Radeon RX 570 8GB DDR5 RS XXX Edition",
+        "clasificacion":"Base",
+        "Precio":"$63.500"
+    },
+    {
+        "id":3,
+        "nombre":"Placa de Video XFX Radeon RX 6500 XT Black 4GB GDDR6 Speedster QICK210",
+        "clasificacion":"Base",
+        "Precio":"$67.700"
+    },
+    {
+        "id":4,
+        "nombre":"Placa de Video MSI Radeon RX 6700 XT 12GB GDDR6 MECH 2X",
+        "clasificacion":"Media",
+        "Precio":"$136.500"
+    },
+    {
+        "id":5,
+        "nombre":"Placa de Video Asrock Radeon RX 6800 16GB GDDR6 Challenger Pro OC",
+        "clasificacion":"Media",
+        "Precio":"$175.400"
+    },
+    {
+        "id":6,
+        "nombre":"Placa de Video XFX Radeon RX 6750 XT ULTRA 12GB GDDR6 Speedster",
+        "clasificacion":"Media",
+        "Precio":"$162.650"
+    },
+    {
+        "id":7,
+        "nombre":"Placa de Video GALAX GeForce RTX 3080 Ti 12GB GDDR6X SG 1-Click OC",
+        "clasificacion":"Media+",
+        "Precio":"$269.750"
+    },
+    {
+        "id":8,
+        "nombre":"Placa de Video Zotac GeForce RTX 3080 Ti 12GB GDDR6X Trinity",
+        "clasificacion":"Media+",
+        "Precio":"$273.050"
+    },
+    {
+        "id":9,
+        "nombre":"Placa de Video MSI GeForce RTX 3090 24GB GDDR6X VENTUS 3X OC",
+        "clasificacion":"Pro",
+        "Precio":"$307.500"
+    },
+    {
+        "id":10,
+        "nombre":"Placa de Video ASUS Radeon RX 6900 XT 16GB GDDR6 ROG STRIX OC LC",
+        "clasificacion":"Pro",
+        "Precio":"$402.550"
+    }
+    ]
+}
